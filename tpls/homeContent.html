@@ -1,0 +1,10 @@
+	<div class="jumbotron">
+		<h1>求购网，购你所求</h1>
+		<p>这块地方呢就是拿来放广告的，可以用一些jquery的巨幕插件，放些广告的图片，滚动</p>
+	</div>
+	<div ng-controller="orderListCtrl" class="container">
+		<div class="row">
+			<my-order ng-repeat="order in orderList" item="order"></my-order>
+		</div>
+	</div>
+
